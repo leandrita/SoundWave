@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.mainJoin {
+  width: 100vw;
+  height: 80vh;
+  background-color: #302e3a;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.circlePurpleBg {
+  position: absolute;
+  z-index: 1;
+  width: 31.25rem;
+  height: 31.25rem;
+  left: -6.25rem;
+  top: 12.5rem;
+  border-radius: 50%;
+  background: #412c41;
+}
+
+.circleVioletBg {
+  position: absolute;
+  z-index: 1;
+  width: 25rem;
+  height: 25rem;
+  left: 17.375rem;
+  top: -7.5rem;
+  border-radius: 50%;
+  background-color: #303047;
+}
+
+.title {
+  color: white;
+  font-size: 3.125rem;
+  font-style: medium;
+  z-index: 2;
+}
+
+.spanTitle {
+  color: #d3007b;
+}
