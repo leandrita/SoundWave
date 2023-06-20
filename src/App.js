@@ -9,7 +9,7 @@ function App() {
     <body>
       <Header />
       <MainIndex />
-      <Footer />
+      {/* <Footer /> */}
     </body>
   );
 }
