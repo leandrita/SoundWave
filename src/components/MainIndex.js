@@ -5,10 +5,20 @@ import "../css/MainIndex.css";
 export default function MainIndex() {
   return (
     <div className='main'>
-      <img src={Girl}/>
-      <h1>Feel The Music</h1>
-      <p>Stream over 20 thousand songs with one click</p>
-      <button>Join Now</button>
+      <div className='content-main'>
+        <h1>Feel The Music</h1>
+        <p>
+          Stream over 20 thousand songs with one <br />
+          Click
+       </p>
+        <button>Join Now</button>
+      </div>
+      <div className='circleVioletBg'></div>
+      <div className='circlePurpleBg'></div>
+      <div className="circlebigVioletBg"></div>
+      <div className='image'>
+        <img src= {Girl} alt='girl'></img>
+      </div>
     </div>
   )
 }
