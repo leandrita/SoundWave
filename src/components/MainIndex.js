@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Girl from '../assets/landing-page-girl.png';
 import "../css/MainIndex.css";
@@ -10,14 +11,14 @@ export default function MainIndex() {
         <p>
           Stream over 20 thousand songs with one <br />
           Click
-       </p>
-        <button>Join Now</button>
+        </p>
+        <Link to="/join"><button>Join Now</button></Link>
       </div>
       <div className='circleVioletBg'></div>
       <div className='circlePurpleBg'></div>
       <div className="circlebigVioletBg"></div>
       <div className='image'>
-        <img src= {Girl} alt='girl'></img>
+        <img src={Girl} alt='girl'></img>
       </div>
     </div>
   )
