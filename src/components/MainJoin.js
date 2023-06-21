@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './Form';
 import "../css/MainJoin.css";
+import "../css/MainJoinMobile.css";
 
 export default function MainJoin() {
     return (
