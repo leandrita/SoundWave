@@ -1,25 +1,25 @@
+import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import MainIndex from './components/MainIndex';
-import MainJoin from './components/MainJoin';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import MainDiscovers from './components/MainDiscovers';
+import Index from './pages/Index';
+import Discover from './pages/Discover';
+import Join from './pages/Join';
+// import Error404 from "./pages/Error404";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Switch>
-          <Route exact path="/" component={MainIndex} />
-          <Route path="/join" component={MainJoin} />
-          <Route path="/discovers" component={MainDiscovers} />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
+    <body>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/discover" element={<Discover />} />
+          <Route path="/join" element={<Join />} />
+          {/* <Route path="*" element={<Error404 />} /> */}
+        </Routes>
+      </BrowserRouter>
+    </body>
   );
 }
 
