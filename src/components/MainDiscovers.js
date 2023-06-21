@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import '../css/MainDiscovers.css';
 import Microphone from '../assets/microphone.svg';
 import Albums from '../assets/albums.svg';
@@ -33,6 +34,7 @@ export default function MainDiscovers() {
         <div className='covers'>
             <img src={Covers} className='image'/>
         </div>
+        <Footer/>
     </div>
   )
 }
