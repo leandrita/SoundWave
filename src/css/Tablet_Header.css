@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+  
+    .Header {
+        height: 80px;
+    }
+  
+    .ParrafoLogo {
+        margin-left: 5px;
+        font-family: "Oswald", sans-serif;
+    }
+  
+    li {
+        margin-left: 15px;
+    }
+}

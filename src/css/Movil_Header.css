@@ -1,0 +1,16 @@
+@media (max-width: 480px) {
+    @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  
+    .Header {
+        height: 60px;
+    }
+  
+    .ParrafoLogo {
+        margin-left: 3px;
+        font-family: "Roboto", sans-serif;
+    }
+  
+    li {
+        margin-left: 10px;
+    }
+}
