@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+  .mainJoin {
+    gap: 4rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .circleVioletBg {
+    display: none;
+  }
+
+  .circlePurpleBg {
+    width: 23rem;
+    height: 23rem;
+    left: -8rem;
+    top: 21rem;
+  }
+}
