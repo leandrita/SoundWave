@@ -21,6 +21,7 @@
   z-index: 2;
 
   }
+
 .image {
   display: flex;
   justify-content: flex-start;
@@ -34,30 +35,30 @@
 }
 
 .image img {
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
 }
 
    
-  h1 {
+  .first-content {
     margin-bottom: 5px; 
-    margin-left: 250px;
+    margin-left: 220px;
     color: white;
     font-size: 36px;
     z-index: 2;
     
   }
   
-  p {
+  .second-content {
     margin-top: 0px;
     margin-bottom: 5px;
     margin-left: 290px;
     color: white; 
   }
   
-  button {
-    margin-top: 30px;
-    margin-left: 70px;
+  .container-button {
+    margin-top: 20px;
+    margin-left: 20px;
     background-color: #1762A7;
     color: white;
     border-radius: 7px;
@@ -69,30 +70,30 @@
    
   }
 
-  .circlePurpleBg {
+  .circlePurple {
     position: absolute;
     width: 300px;
     height: 300px;
-    left: 120px;
-    top: 250px;
+    left: 450px;
+    top: 130px;
     background-color: #412c41;
     z-index: 1;
     border-radius: 50%;
   }
 
-  .circleVioletBg {
+  .circleViolet {
     position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 480px;
-    bottom: 250px;
+    width: 300px;
+    height: 300px;
+    right: 950px;
+    bottom: 50px;
     background-color: #303047;
     z-index: 1;
     border-radius: 50%;
 
   }
 
-  .circlebigVioletBg {
+  .circlebigViolet {
     position: absolute;
     width: 600px;
     height: 600px;
@@ -102,3 +103,160 @@
     z-index: 1;
     border-radius: 50%;
   }
+
+  /* Media Query Movil*/
+
+ @media (max-width:480px) {
+
+  .main {
+    width: 100%;
+    height: 200vh;
+  }
+
+  .first-content {
+    position: relative;
+    display: flex;
+    margin-right: 290px;
+    margin-left: 10px;
+    font-size: 50px;
+    top: 20px;
+
+  }
+
+  .second-content {
+    position: relative;
+    margin-right: 50px;
+    margin-left: 10px;
+    left: 20px;
+    right: 110px;
+    font-size: 10px;
+    
+  }
+
+  .container-button {
+    position: relative;
+    margin-right: 350px;
+    margin-left: 10px;
+    left: 50px;
+    right: 20px;
+  }
+
+  .image {
+    position: relative;
+    display: none;
+  }
+
+  .circlePurple {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    left: 20px;
+  }
+
+  .circleViolet {
+    position: relative;
+    width:300px;
+    height: 300px;
+    margin-right: 550px;
+    left: 300px;
+    right: 50px;
+    bottom: 180px;
+ 
+  }
+
+  .circlebigViolet {
+    position: relative;
+    display: flex;
+    width:300px;
+    height: 300px;
+    margin-right: 550px
+  }
+
+     
+ }
+
+
+  /* Media Query Tablet*/
+
+  @media (max-width: 1024px) {
+ 
+   .main {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #302E3A;
+    z-index: -1;
+  }
+
+
+    .image {
+      position: absolute;
+      display: flex;
+      margin-left: 10px;
+      margin-right: 70px;
+      left: 20%;
+      width: 150vh;
+      height: 60vh;
+    }
+
+    .content-main {
+      width: 100vh;
+      height: 100vh;
+      margin-top: 0;
+     
+      }
+
+    .first-content {
+      margin-left: 150px;
+      margin-right: 20px;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+  
+    .second-content {
+      margin-left: 240px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    .container-button {
+      margin-right: 30px;
+      margin-left: 1px;
+      margin-top: 50px;
+     
+    
+    }
+
+    .circlePurple {
+      width: 300px;
+      height: 300px;
+      margin-right: 500px;
+      right: auto;
+      left: 5px;
+      top: 45vh;
+      
+    }
+
+    .circleViolet {
+      width:300px;
+      height: 300px;
+      margin-right: 550px;
+      left: 300px;
+      right: 50px;
+      bottom: 180px;
+   
+    }
+    
+    .circlebigViolet {
+      display: none;
+    }
+
+
+  }
+  
+  
