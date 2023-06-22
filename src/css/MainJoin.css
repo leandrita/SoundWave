@@ -8,8 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8rem;
-  overflow: hidden;
+  gap: 7rem;
 }
 
 .circlePurpleBg {
@@ -35,12 +34,14 @@
 }
 
 .title {
+  margin: 0;
   color: white;
   font-size: 3.125rem;
-  font-style: medium;
+  font-weight: 700;
   z-index: 2;
 }
 
 .spanTitle {
   color: #d3007b;
+  font-weight: 700;
 }

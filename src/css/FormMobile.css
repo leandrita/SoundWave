@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+  .form {
+    width: 20rem;
+    height: 20rem;
+    z-index: 2;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .inputText {
+    margin: 0;
+  }
+
+  .inputSpace {
+    border-radius: 0.25rem;
+  }
+
+  .joinNowBtn {
+    margin: 0;
+    font-weight: 400;
+  }
+}

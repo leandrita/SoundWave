@@ -2,6 +2,8 @@ import React from 'react';
 import Form from './Form';
 import Footer from './Footer';
 import "../css/MainJoin.css";
+import "../css/MainJoinMobile.css";
+import "../css/MainJoinTablet.css";
 
 export default function MainJoin() {
     return (

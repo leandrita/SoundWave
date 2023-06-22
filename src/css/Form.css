@@ -2,8 +2,8 @@
 
 .form {
   background-color: #211f27;
-  width: 18.75rem;
-  height: 16rem;
+  width: 22rem;
+  height: 18rem;
   border-radius: 5%;
   padding: 1.5rem 3rem;
   display: flex;
@@ -16,6 +16,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
   font-weight: bold;
+  margin-bottom: 0.25rem;
 }
 
 .inputSpace {
@@ -23,10 +24,12 @@
   background-color: #211f27;
   border: solid 1px #303047;
   border-radius: 0.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  padding: 0;
 }
 
 .joinNowBtn {
+  width: auto;
   height: 1.75rem;
   border: none;
   border-radius: 0.4rem;
