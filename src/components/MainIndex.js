@@ -5,18 +5,18 @@ import "../css/MainIndex.css";
 
 export default function MainIndex() {
   return (
-    <div className='main'>
+    <div className='main'> 
       <div className='content-main'>
-        <h1>Feel The Music</h1>
-        <p>
+        <h1 className='first-content'>Feel The Music</h1>
+        <p className='second-content'>
           Stream over 20 thousand songs with one <br />
           Click
         </p>
-        <Link to="/join"><button>Join Now</button></Link>
+        <Link to="/join"><button className='container-button'>Join Now</button></Link>
       </div>
-      <div className='circleVioletBg'></div>
-      <div className='circlePurpleBg'></div>
-      <div className="circlebigVioletBg"></div>
+      <div className='circleViolet'></div>
+      <div className='circlePurple'></div>
+      <div className="circlebigViolet"></div>
       <div className='image'>
         <img src={Girl} alt='girl'></img>
       </div>
