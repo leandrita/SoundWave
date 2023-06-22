@@ -8,7 +8,7 @@ export default function MainIndex() {
     <div className='main'>
       <div className='content-main'>
         <h1>Feel The Music</h1>
-        <p>
+        <p className='slogan'>
           Stream over 20 thousand songs with one <br />
           Click
         </p>
