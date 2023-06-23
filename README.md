@@ -14,27 +14,27 @@ Nuestro Stake Holder necesita acelerar el proceso de subscripción, por lo que h
  <h4 align="justify">
 :white_check_mark: HTML :white_check_mark:
 </h4>
-<h4 align="center">
+<h4 align="justify">
 :white_check_mark: CSS :white_check_mark: 
 </h4>
-<h4 align="center">
+<h4 align="justify">
 :white_check_mark: Javascript :white_check_mark:
 </h4>
-<h4 align="center">
+<h4 align="justify">
 :white_check_mark: Visual Studio Code :white_check_mark:
 </h4>
-<h4 align="center"
+<h4 align="Justify">
 :white_check_mark: Git / Github :white_check_mark:
 </h4>
 
 ## Ionic Beast Team
 ### Desarrolladoras
 
-*Génesis*
-Lea
-Neema
-Milena
-Marga Mbande
+Milena Halas \
+Genesis Nuñez \
+Neema Nelly -Product Owner \
+Marga Mbande - Scrum Master \
+Leandra Bujhamer \
 
 
 
