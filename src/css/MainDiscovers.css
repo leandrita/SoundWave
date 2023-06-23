@@ -3,51 +3,79 @@
 .discovers {
     font-family: "Poppins", sans-serif;
     color: white;
-    display: grid;
     margin: auto;
-    justify-content: space-between;
-    grid-template-columns: 60% 40%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 55% 45%;
     background-color: #302E3A;
+    height: 80vh;
 }
 
 
 .subtitle {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
-    margin-bottom: 15px;
-    font-weight: 400;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-left: 32%;
 }
 
-.image {
-    width: 60%;
-}
 
-.info{
-    margin-left: 20%;
-}
-
-.info section {
+.section {
     display: flex;
+    margin-left: 32%;
 }
 
-.info section div {
+.info {
+    justify-content: left;
+    margin: left;
+    align-items: start;
+
+}
+
+.box-info {
     text-align: center;
     margin-right: 20px;
     background: #211F27;
-    width: 80px;
+    width: 101.04px;
+    height: 101.4px;
     margin-bottom: 15px;
 }
 
-.info section img {
-    width: 28%;
+.box-img {
+    width: 44.25px;
+    height: 42.4px;
     margin-bottom: -15px;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.covers {
-    margin: auto;
-    align-items: center;
+.box-text {
+    margin-left: -9px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
+.info-text {
+    font-size: 13px;
+    margin-left: 32%;
+}
+
+.covers {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    margin: auto;
+
+}
+
+
+.image {
+    width: 352px;
+    height: 352px;
+    position: absolute;
+    left: 56%;
+    top: 30%;
+}
