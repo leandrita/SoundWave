@@ -2,6 +2,7 @@ import React from "react";
 import "../css/MainDiscovers.css";
 import "../css/DiscoversTablet.css";
 import "../css/DiscoversMobile.css";
+import Footer from "../components/Footer";
 import Microphone from "../assets/microphone.svg";
 import Albums from "../assets/albums.svg";
 import More from "../assets/more.svg";
