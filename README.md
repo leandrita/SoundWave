@@ -24,7 +24,7 @@ Nuestro Stake Holder necesita acelerar el proceso de subscripción, por lo que h
 :white_check_mark: Visual Studio Code :white_check_mark:
 </h4>
 <h4 align="Justify">
-:white_check_mark: Git / Github :white_check_mark:
+:white_check_mark: Git / 
 </h4>
 
 ## Ionic Beast Team
@@ -34,7 +34,7 @@ Milena Halas \
 Genesis Nuñez \
 Neema Nelly -Product Owner \
 Marga Mbande - Scrum Master \
-Leandra Bujhamer \
+Leandra Bujhamer 
 
 
 
