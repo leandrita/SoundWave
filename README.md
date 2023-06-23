@@ -12,20 +12,30 @@ Nuestro Stake Holder necesita acelerar el proceso de subscripción, por lo que h
 ## Herramientas Utilizadas
  
  <h4 align="justify">
-:white_check_mark: HTML :white_check_mark:
+:white_check_mark: HTML 
 </h4>
 <h4 align="justify">
-:white_check_mark: CSS :white_check_mark: 
+:white_check_mark: CSS
 </h4>
 <h4 align="justify">
-:white_check_mark: Javascript :white_check_mark:
+:white_check_mark: Javascript 
 </h4>
 <h4 align="justify">
-:white_check_mark: Visual Studio Code :white_check_mark:
+:white_check_mark: Visual Studio Code 
 </h4>
 <h4 align="Justify">
-:white_check_mark: Git / 
+:white_check_mark: Git + GitHub 
 </h4>
+<h4 align="Justify">
+:white_check_mark: Trello
+</h4>
+<h4 align="Justify">
+:white_check_mark: Node
+</h4>
+<h4 align="Justify">
+:white_check_mark: Google
+</h4>
+
 
 ## Ionic Beast Team
 ### Desarrolladoras
