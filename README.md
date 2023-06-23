@@ -30,7 +30,7 @@ Nuestro Stake Holder necesita acelerar el proceso de subscripción, por lo que h
 ## Ionic Beast Team
 ### Desarrolladoras
 
-Génesis
+*Génesis*
 Lea
 Neema
 Milena
