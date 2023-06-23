@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+  .mainJoin {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .spanTitle {
+    padding-right: 6rem;
+  }
+
+  .circleVioletBg {
+    width: 7rem;
+    height: 7rem;
+    left: 5rem;
+    top: -2rem;
+  }
+
+  .circlePurpleBg {
+    width: 8rem;
+    height: 8rem;
+    left: -2rem;
+    top: 36rem;
+  }
+}

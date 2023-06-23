@@ -1,8 +1,21 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+beforeEach(() => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+})
+
+test('renders Feel the music title', () => {
+  const title = screen.getByText(/feel the music/i);
+  expect(title).toBeInTheDocument();
+});
+
+test('renders logo paragraph: Soundwave', () => {
+  const paragraph = screen.getByText(/soundwave/i);
+  expect(paragraph).toBeInTheDocument();
+});
+
+test('renders join now button', () => {
+  const joinNowBtn = screen.getByText(/Join Now/i);
+  expect(joinNowBtn).toBeInTheDocument();
 });

@@ -8,8 +8,7 @@ import Join from './pages/Join';
 
 function App() {
   return (
-    <body>
-
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
@@ -18,7 +17,7 @@ function App() {
           {/* <Route path="*" element={<Error404 />} /> */}
         </Routes>
       </BrowserRouter>
-    </body>
+    </>
   );
 }
 

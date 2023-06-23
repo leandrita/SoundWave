@@ -13,11 +13,14 @@ export default function Footer() {
            <p>Contat</p>
         </div>
         <div className='footerLeft'>
-            <img src={twitter}/>
+          <div className='socialMediaTwitter'>
+            <img className='logoTwt' src={twitter}/>
             <p className='twitter'>Twitter</p>
-            <img src={facebook}/>
+          </div>
+          <div className='socialMediaFacebook'>
+            <img className='logoFb' src={facebook}/>
             <p className='facebook'>Facebook</p>
-          
+          </div>
         </div>
       </div>
     </footer>
