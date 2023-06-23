@@ -1,0 +1,49 @@
+@media (max-width: 480px){
+    .discovers{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    
+    .info{
+        margin-top:-15px ;
+        padding: 5%;
+    }
+
+    .subtitle{
+        font-size: 46px;
+    }
+
+    .box-info {
+        width: 78px;
+        height: 80px;
+    }
+
+    .box-img{
+        width: 32px;
+        height: 33px;
+    }
+
+    .box-text{
+        font-size: 15px;
+    }
+
+    .info-text{
+        font-size: 15px;
+    }
+
+    .covers{
+        align-items: center;
+        height: 100vh;
+    }
+
+    .image{
+        width: 220px;
+        height: 220px;
+        padding: 0px;
+        z-index: 0px;
+    }
+
+
+
+    
+}

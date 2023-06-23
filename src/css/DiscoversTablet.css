@@ -1,0 +1,37 @@
+@media (max-width: 1024px){
+    .discovers{
+        width: 100%;
+        max-width: 1040px;
+    }
+
+    .subtitle {
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .image{
+        width: 352px;
+        height: 352px;
+        /* position:static; */
+    }
+
+
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin: 0px;
+        padding: 4rem;
+        gap: 1rem;
+    }
+
+    .section{
+        margin: 0px;
+    }
+
+    .info-text{
+        margin: 0px;
+    }
+}
