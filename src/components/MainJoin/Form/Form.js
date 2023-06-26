@@ -1,7 +1,7 @@
 import React from 'react';
-import "../css/Form.css";
-import "../css/FormMobile.css";
-import "../css/FormTablet.css";
+import "../Form/Form.css";
+import "../Form/FormMobile.css";
+import "../Form/FormTablet.css";
 
 function Form() {
   return (

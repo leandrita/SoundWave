@@ -1,7 +1,7 @@
 import React from 'react'
-import twitter from '../assets/twitter.svg'
-import facebook from '../assets/facebook.svg'
-import "../css/Footer.css"
+import twitter from '../../assets/twitter.svg'
+import facebook from '../../assets/facebook.svg'
+import '../Footer/Footer.css'
 
 
 export default function Footer() {
@@ -9,16 +9,16 @@ export default function Footer() {
     <footer className='footer'>
       <div className='container'>
         <div className='footerRight'>
-           <p>About Us</p>
-           <p>Contat</p>
+          <p>About Us</p>
+          <p>Contat</p>
         </div>
         <div className='footerLeft'>
           <div className='socialMediaTwitter'>
-            <img className='logoTwt' src={twitter}/>
+            <img className='logoTwt' src={twitter} alt="twitter" />
             <p className='twitter'>Twitter</p>
           </div>
           <div className='socialMediaFacebook'>
-            <img className='logoFb' src={facebook}/>
+            <img className='logoFb' src={facebook} alt="Facebook" />
             <p className='facebook'>Facebook</p>
           </div>
         </div>

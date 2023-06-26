@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import Logo from '../assets/logo.png';
-import '../css/Header.css';
+import Logo from '../../assets/logo.png';
+import '../Header/HeaderDesktop.css';
+import '../Header/HeaderTablet.css';
+import '../Header/HeaderMobile.css';
 
 
 export default function Header() {

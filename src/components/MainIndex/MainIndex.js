@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import Girl from '../assets/landing-page-girl.png';
-import "../css/MainIndex.css";
+import Girl from '../../assets/landing-page-girl.png';
+import "../MainIndex/MainIndex.css";
 
 export default function MainIndex() {
   return (

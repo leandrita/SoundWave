@@ -1,9 +1,9 @@
 import React from 'react';
-import Form from './Form';
-import Footer from './Footer';
-import "../css/MainJoin.css";
-import "../css/MainJoinMobile.css";
-import "../css/MainJoinTablet.css";
+import Form from '../../components/MainJoin/Form/Form';
+import Footer from '../../components/Footer/Footer';
+import "../MainJoin/MainJoin.css";
+import "../MainJoin/MainJoinMobile.css";
+import "../MainJoin/MainJoinTablet.css";
 
 export default function MainJoin() {
     return (
@@ -12,7 +12,7 @@ export default function MainJoin() {
             <div className='circlePurpleBg'></div>
             <h1 className='title'>Join the <span className='spanTitle'>fun.</span></h1>
             <section><Form /></section>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
