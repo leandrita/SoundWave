@@ -17,6 +17,9 @@ Nuestro Stake Holder necesita acelerar el proceso de subscripción, por lo que h
 <h4 align="justify">
 :white_check_mark: CSS
 </h4>
+<h4 align="Justify">
+:white_check_mark: React
+</h4>
 <h4 align="justify">
 :white_check_mark: Javascript 
 </h4>
