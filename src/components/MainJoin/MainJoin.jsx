@@ -1,6 +1,6 @@
 import React from 'react';
-import Form from '../../components/MainJoin/Form/Form';
-import Footer from '../../components/Footer/Footer';
+import Form from './Form/Form';
+import Footer from '../Footer/Footer';
 import "../MainJoin/MainJoin.css";
 import "../MainJoin/MainJoinMobile.css";
 import "../MainJoin/MainJoinTablet.css";
