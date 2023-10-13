@@ -6,7 +6,6 @@ Nuestro Stake Holder necesita acelerar el proceso de subscripción, por lo que h
 
 ## Prototipos
 ![Desktop](/src/assets/Desktop.png)
-![Tablet](/src/assets/Tablet.png)
 ![Movil](/src/assets/Mobile.png)
 
 ## Herramientas Utilizadas
